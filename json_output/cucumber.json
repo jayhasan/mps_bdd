@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7799063500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify Home page",
+        "description": "",
+        "id": "home-functionality;verify-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1059845300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.quite()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 223717800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am in home page",
+            "match": {
+              "location": "stepDef.i_am_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 413339200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on Select vehicle",
+            "match": {
+              "location": "stepDef.user_click_on_Select_vehicle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1412704400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#Then Verify Camry2019 is displayed"
+              }
+            ],
+            "line": 9,
+            "name": "user click on Shopping Tools",
+            "match": {
+              "location": "stepDef.user_click_on_Shopping_Tools()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1944869300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Find a Dealer",
+            "match": {
+              "location": "stepDef.user_click_on_Find_a_Dealer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Home Functionality",
+    "description": "",
+    "id": "home-functionality",
+    "keyword": "Feature",
+    "uri": "USAHomePage.feature"
+  }
+]

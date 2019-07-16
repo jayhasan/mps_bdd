@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.85354">
+<testcase classname="Home Functionality" name="Verify Home page" time="12.85354">
+<system-out><![CDATA[Given I am in home page.....................................................passed
+When user click on Select vehicle...........................................passed
+Then user click on Shopping Tools...........................................passed
+Then user click on Find a Dealer............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
